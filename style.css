@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:whitesmoke;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container{
+    background-color:#16161afa;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.slide{
+    width:20rem;
+    height:20rem;
+    padding:2rem;
+    background: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+    border-radius: 25px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+@media only screen and (max-width: 375px) {
+    .slide{
+        width:90%;
+        height:70%;
+        padding:10px;
+    }
+}
+.mid h1{
+    margin-bottom:1rem;
+    font-size:1.8rem;
+}
+.mid2{
+    text-align: center;
+}
+.num{
+    width:3rem;
+    height: 3rem;
+    background-color: hsla(216, 12%, 54%, 0.148);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50px;
+    color:hsl(217, 12%, 63%);
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    background-color:hsl(25, 97%, 53%);
+    border:1px solid hsl(25, 97%, 53%);
+    border-radius:20px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 100ms;
+    line-height: 2rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 4px;
+}
+.submit:hover{
+    background-color:white;
+    color:hsl(25, 97%, 53%);
+    cursor:pointer;
+}
+.clicked{
+    color:white;
+    background-color:gray;
+}
+.clickable:hover{
+    color:white;
+    background-color:hsl(25, 97%, 53%);
+    cursor:pointer;
+}
+p{
+    color: hsl(217, 12%, 63%);
+}
+.clr{
+    background-color: hsl(217, 12%, 63%);
+}
+.disabled{
+    display: none;
+}
+#slide2{
+    align-items: center;
+}
+img{
+    width:10rem;
+}
+.ratingdisplay{
+    background-color:hsl(213, 19%, 18%);
+    width: fit-content;
+    height:fit-content;
+    padding:6px 12px 6px 12px;
+    color:hsla(25, 89%, 59%, 0.874);
+    border-radius:20px;
+}
+
