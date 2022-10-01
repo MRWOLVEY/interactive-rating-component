@@ -1,1 +1,1 @@
-# interactive-rating-component
+# https://mrwolvey.github.io/interactive-rating-component/
